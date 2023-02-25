@@ -3,11 +3,12 @@ from fastapi import FastAPI, Depends, HTTPException, status
 from database import engine, SessionLocal
 from sqlalchemy.orm import Session
 from pydantic import BaseModel
-from typing import Union, Literal, Optional
+from typing import Union, Optional
 from passlib.context import CryptContext
 from fastapi.security import OAuth2PasswordRequestForm, OAuth2PasswordBearer
 from datetime import datetime, timedelta
 from jose import jwt, JWTError
+from typing_extensions import Literal
 
 
 SECRET_KEY = "881E8D37B7486DD879DFCDC1379D6"
