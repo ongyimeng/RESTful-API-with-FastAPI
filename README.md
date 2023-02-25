@@ -28,7 +28,8 @@ Successful Response should look like:
 # Login with user
 
 Enter your email in the username field  
-Enter your password 
+Enter your password  
+Press Execute
 
 ![image](https://user-images.githubusercontent.com/73429081/221335139-c2007d51-9c25-4f17-bf67-20fdc6e9edff.png)
 
@@ -83,7 +84,7 @@ Trying to get the info from the same user would now return a 400 Bad Request Res
 ![image](https://user-images.githubusercontent.com/73429081/221338402-8b544397-0dc5-4977-9311-7643bf8b0c67.png)
 ![image](https://user-images.githubusercontent.com/73429081/221338450-36439a05-dfe9-4740-a9f3-ed5e6d294984.png)
 
-# If you made it this far
+# Ending
   
 I did try to deploy it on render.com but faced technical limitations
 
